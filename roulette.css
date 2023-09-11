@@ -1,0 +1,81 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.red-button {
+    background-color: #ED1E24;
+    width: 50px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.black-button {
+    background-color: #000000;
+    width: 50px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.twelves-button {
+    background-color: #146733;
+    width: 214px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.red-game-button {
+    background-color: #ED1E24;
+    width: 105px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.black-game-button {
+    background-color: #000000;
+    width: 105px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.green-button {
+    background-color: #146733;
+    width: 105px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.result-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.move-text {
+    padding-bottom: 25px;
+}
+
+.reset-button {
+    background-color: #8a8a8a;
+    border: none;
+    border-radius: 50px;
+    width: 105px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+}
