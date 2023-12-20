@@ -6,168 +6,172 @@
         <link rel="stylesheet" href="roulette.css">
     </head>
     <body>
-        <div class="container">
-            <p class="title">Sawyerrs Roulette</p>
-            <img src="roulette-cali.jpg" alt="" height="150" width="268.398">
-            <br><br><br>
-            <section id="single-number">
-                <button onclick="
-                    playGameNumber('3');
-                " class="red-button">3</button>
-                <button onclick="
-                    playGameNumber('6');
-                " class="black-button">6</button>
-                <button onclick="
-                    playGameNumber('9');
-                " class="red-button">9</button>
-                <button onclick="
-                    playGameNumber('12');
-                " class="red-button">12</button>
-                <button onclick="
-                    playGameNumber('15');
-                " class="black-button">15</button>
-                <button onclick="
-                    playGameNumber('18');
-                " class="red-button">18</button>
-                <button onclick="
-                    playGameNumber('21');
-                " class="red-button">21</button>
-                <button onclick="
-                    playGameNumber('24');
-                " class="black-button">24</button>
-                <button onclick="
-                    playGameNumber('27');
-                " class="red-button">27</button>
-                <button onclick="
-                    playGameNumber('30');
-                " class="red-button">30</button>
-                <button onclick="
-                    playGameNumber('33');
-                " class="black-button">33</button>
-                <button onclick="
-                    playGameNumber('36');
-                " class="red-button">36</button>
+        <div class="grid">
+            <div></div>
+            <div class="container">
+                <p class="title">Sawyerrs Roulette</p>
+                <img src="roulette-cali.jpg" alt="" height="150" width="268.398">
+                <br><br><br>
+                <section id="single-number">
+                    <button onclick="
+                        playGameNumber('3');
+                    " class="red-button">3</button>
+                    <button onclick="
+                        playGameNumber('6');
+                    " class="black-button">6</button>
+                    <button onclick="
+                        playGameNumber('9');
+                    " class="red-button">9</button>
+                    <button onclick="
+                        playGameNumber('12');
+                    " class="red-button">12</button>
+                    <button onclick="
+                        playGameNumber('15');
+                    " class="black-button">15</button>
+                    <button onclick="
+                        playGameNumber('18');
+                    " class="red-button">18</button>
+                    <button onclick="
+                        playGameNumber('21');
+                    " class="red-button">21</button>
+                    <button onclick="
+                        playGameNumber('24');
+                    " class="black-button">24</button>
+                    <button onclick="
+                        playGameNumber('27');
+                    " class="red-button">27</button>
+                    <button onclick="
+                        playGameNumber('30');
+                    " class="red-button">30</button>
+                    <button onclick="
+                        playGameNumber('33');
+                    " class="black-button">33</button>
+                    <button onclick="
+                        playGameNumber('36');
+                    " class="red-button">36</button>
+                    <br>
+                    <button onclick="
+                        playGameNumber('2');
+                    " class="black-button">2</button>
+                    <button onclick="
+                        playGameNumber('5');
+                    " class="red-button">5</button>
+                    <button onclick="
+                        playGameNumber('8');
+                    " class="black-button">8</button>
+                    <button onclick="
+                        playGameNumber('11');
+                    " class="black-button">11</button>
+                    <button onclick="
+                        playGameNumber('14');
+                    " class="red-button">14</button>
+                    <button onclick="
+                        playGameNumber('17');
+                    " class="black-button">17</button>
+                    <button onclick="
+                        playGameNumber('20');
+                    " class="black-button">20</button>
+                    <button onclick="
+                        playGameNumber('23');
+                    " class="red-button">23</button>
+                    <button onclick="
+                        playGameNumber('26');
+                    " class="black-button">26</button>
+                    <button onclick="
+                        playGameNumber('29');
+                    " class="black-button">29</button>
+                    <button onclick="
+                        playGameNumber('32');
+                    " class="red-button">32</button>
+                    <button onclick="
+                        playGameNumber('35');
+                    " class="black-button">35</button>
+                    <br>
+                    <button onclick="
+                        playGameNumber('1');
+                    " class="red-button">1</button>
+                    <button onclick="
+                        playGameNumber('4');
+                    " class="black-button">4</button>
+                    <button onclick="
+                        playGameNumber('7');
+                    " class="red-button">7</button>
+                    <button onclick="
+                        playGameNumber('10');
+                    " class="black-button">10</button>
+                    <button onclick="
+                        playGameNumber('13');
+                    " class="black-button">13</button>
+                    <button onclick="
+                        playGameNumber('16');
+                    " class="red-button">16</button>
+                    <button onclick="
+                        playGameNumber('19');
+                    " class="black-button">19</button>
+                    <button onclick="
+                        playGameNumber('22');
+                    " class="black-button">22</button>
+                    <button onclick="
+                        playGameNumber('25');
+                    " class="red-button">25</button>
+                    <button onclick="
+                        playGameNumber('28');
+                    " class="red-button">28</button>
+                    <button onclick="
+                        playGameNumber('31');
+                    " class="black-button">31</button>
+                    <button onclick="
+                        playGameNumber('34');
+                    " class="red-button">34</button>   
+                </section>
+                <section id="12s">
+                    <button onclick="
+                        playGame12('First 12');
+                    " class="twelves-button">First 12</button>
+                    <button onclick="
+                        playGame12('Second 12');
+                    " class="twelves-button">Second 12</button>
+                    <button onclick="
+                        playGame12('Third 12');
+                    " class="twelves-button">Third 12</button>
+                </section>
+                <section id="last rows">
+                    <button onclick="
+                        playGame18('First 18');
+                    " class="green-button">First 18</button>
+                    <button onclick="
+                        playGame18('Second 18');
+                    " class="green-button">Second 18</button>
+                    <Button onclick="
+                        playGameRedBlack('Black')
+                    " class="black-game-button">Black</Button>
+                    <Button onclick="
+                        playGameRedBlack('Red')
+                    " class="red-game-button">Red</Button>
+                    <Button onclick="
+                        playGameOddEven('Odd');
+                    " class="green-button">Odd</Button>
+                    <Button onclick="
+                        playGameOddEven('Even');
+                    " class="green-button">Even</Button>
+                </section>
+                
+                <section>
+                    <p class="js-result result-text"></p>
+                    <p class="js-move move-text"></p>
+                    <p class="js-score"></p>
+                </section>
                 <br>
-                <button onclick="
-                    playGameNumber('2');
-                " class="black-button">2</button>
-                <button onclick="
-                    playGameNumber('5');
-                " class="red-button">5</button>
-                <button onclick="
-                    playGameNumber('8');
-                " class="black-button">8</button>
-                <button onclick="
-                    playGameNumber('11');
-                " class="black-button">11</button>
-                <button onclick="
-                    playGameNumber('14');
-                " class="red-button">14</button>
-                <button onclick="
-                    playGameNumber('17');
-                " class="black-button">17</button>
-                <button onclick="
-                    playGameNumber('20');
-                " class="black-button">20</button>
-                <button onclick="
-                    playGameNumber('23');
-                " class="red-button">23</button>
-                <button onclick="
-                    playGameNumber('26');
-                " class="black-button">26</button>
-                <button onclick="
-                    playGameNumber('29');
-                " class="black-button">29</button>
-                <button onclick="
-                    playGameNumber('32');
-                " class="red-button">32</button>
-                <button onclick="
-                    playGameNumber('35');
-                " class="black-button">35</button>
-                <br>
-                <button onclick="
-                    playGameNumber('1');
-                " class="red-button">1</button>
-                <button onclick="
-                    playGameNumber('4');
-                " class="black-button">4</button>
-                <button onclick="
-                    playGameNumber('7');
-                " class="red-button">7</button>
-                <button onclick="
-                    playGameNumber('10');
-                " class="black-button">10</button>
-                <button onclick="
-                    playGameNumber('13');
-                " class="black-button">13</button>
-                <button onclick="
-                    playGameNumber('16');
-                " class="red-button">16</button>
-                <button onclick="
-                    playGameNumber('19');
-                " class="black-button">19</button>
-                <button onclick="
-                    playGameNumber('22');
-                " class="black-button">22</button>
-                <button onclick="
-                    playGameNumber('25');
-                " class="red-button">25</button>
-                <button onclick="
-                    playGameNumber('28');
-                " class="red-button">28</button>
-                <button onclick="
-                    playGameNumber('31');
-                " class="black-button">31</button>
-                <button onclick="
-                    playGameNumber('34');
-                " class="red-button">34</button>   
-            </section>
-            <section id="12s">
-                <button onclick="
-                    playGame12('First 12');
-                " class="twelves-button">First 12</button>
-                <button onclick="
-                    playGame12('Second 12');
-                " class="twelves-button">Second 12</button>
-                <button onclick="
-                    playGame12('Third 12');
-                " class="twelves-button">Third 12</button>
-            </section>
-            <section id="last rows">
-                <button onclick="
-                    playGame18('First 18');
-                " class="green-button">First 18</button>
-                <button onclick="
-                    playGame18('Second 18');
-                " class="green-button">Second 18</button>
-                <Button onclick="
-                    playGameRedBlack('Black')
-                " class="black-game-button">Black</Button>
-                <Button onclick="
-                    playGameRedBlack('Red')
-                " class="red-game-button">Red</Button>
-                <Button onclick="
-                    playGameOddEven('Odd');
-                " class="green-button">Odd</Button>
-                <Button onclick="
-                    playGameOddEven('Even');
-                " class="green-button">Even</Button>
-            </section>
-            
-            <section>
-                <p class="js-result result-text"></p>
-                <p class="js-move move-text"></p>
-                <p class="js-score"></p>
-            </section>
-            <br>
-            <section id="Reset Button">
-                <Button onclick="
-                    score.wins = 0;
-                    score.losses = 0;
-                    score.balance = 10000;
-                    updateScoreEl();
-                " class="reset-button">Reset Score</Button>
-            </section>
+                <section id="Reset Button">
+                    <Button onclick="
+                        score.wins = 0;
+                        score.losses = 0;
+                        score.balance = 10000;
+                        updateScoreEl();
+                    " class="reset-button">Reset Score</Button>
+                </section>
+            </div>
+            <div></div>
         </div>
         <script src="roulette.js"></script>
     </body>
